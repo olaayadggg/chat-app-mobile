@@ -1,0 +1,60 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Expo & Metro
+.expo/
+.expo-shared/
+.expo-dev/
+.expo/packager-info.json
+.expo/settings.json
+.expo/cache/
+.expo/web/
+dist/
+web-build/
+.expo/*
+.expo-shared/*
+
+# Build outputs
+android/app/build/
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcuserdata/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+
+# macOS
+*.DS_Store
+
+# Android Studio
+.gradle/
+local.properties
+*.iml
+
+# Misc
+coverage/
+babel.config.js.map
