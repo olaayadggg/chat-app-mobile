@@ -11,7 +11,6 @@ export default function ChatHeader({ notifications, showDropdown, setShowDropdow
         onPress={() => setShowDropdown(!showDropdown)}
       >
           <Bell size={22} color="#111827" />
-        <Text style={styles.bell}></Text>
         {notifications.length > 0 && (
           <View style={styles.badge}>
             <Text style={styles.badgeTxt}>{notifications.length}</Text>
@@ -35,7 +34,6 @@ const styles = StyleSheet.create({
   backArrow: { fontSize: 26, color: "#111827", marginRight: 8 },
   headerTitle: { fontSize: 18, fontWeight: "600", color: "#111827" },
   bellContainer: { marginLeft: "auto", position: "relative" },
-  bell: { fontSize: 22 },
   badge: {
     position: "absolute",
     top: -4,

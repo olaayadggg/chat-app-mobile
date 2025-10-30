@@ -28,10 +28,10 @@ export default function MessageItem({ message, employeeId, employeeImage }) {
 }
 
 const styles = StyleSheet.create({
-  msgRow: { marginVertical: 8, flexDirection: "row", alignItems: "flex-end" },
+  msgRow: { marginVertical: 8,width:"80%", flexDirection: "row", alignItems: "flex-end" },
   msgRowLeft: { justifyContent: "flex-start" },
   msgRowRight: { justifyContent: "flex-end", alignSelf: "flex-end" },
-  bubble: { maxWidth: "90%", padding: 10, borderRadius: 16 },
+  bubble: { maxWidth: "100%", padding: 10, borderRadius: 16 },
   bubbleMe: {
     backgroundColor: "#2563eb",
     marginRight: 4,
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     marginLeft: 4,
     borderBottomLeftRadius: 4,
   },
-  msgText: { fontSize: 15, color: "#111827" },
+  msgText: { fontSize: 15, color: "#111827" , width: '100%'},
   msgTime: { fontSize: 11, color: "#6b7280", marginTop: 4 },
   msgTimeLeft: { textAlign: "left", marginLeft: 4 },
   msgTimeRight: { textAlign: "right", marginRight: 4 },
